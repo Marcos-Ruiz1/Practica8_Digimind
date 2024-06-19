@@ -10,8 +10,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
+        android:layout_height="match_parent"
+        android:fillViewport="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -120,7 +120,7 @@
                     <CheckBox
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/Thursday"
+                        android:id="@+id/thursday"
                         android:layout_marginLeft="30dp"
                         />
 
@@ -182,6 +182,16 @@
 
             </TableLayout>
 
+            <Button
+                android:id="@+id/done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/dusty_rose"
+                android:layout_marginTop="30dp"
+                android:text="@string/done"
+                android:layout_gravity="center"
+                />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -190,15 +200,18 @@
                 android:textAlignment="center"
                 android:layout_marginTop="20dp"
                 />
-            <EditText
-                android:id="@+id/time"
-                android:layout_width="match_parent"
+            
+            <Button
+                android:id="@+id/btnTime"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:inputType="text"
+                android:textColor="@color/gray"
+                android:text="Set time!"
+                android:textSize="16sp"
                 />
 
             <Button
-                android:id="@+id/done"
+                android:id="@+id/doneprueba"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/dusty_rose"
@@ -210,9 +223,5 @@
         </LinearLayout>
 
     </ScrollView>
-
-
-
-
 
 </LinearLayout>
