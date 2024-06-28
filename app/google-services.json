@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "842111820925",
+    "project_id": "mydigimind-d1ff9",
+    "storage_bucket": "mydigimind-d1ff9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842111820925:android:317bc640899f8ee1503d14",
+        "android_client_info": {
+          "package_name": "zazueta.marcos.mydigimind"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1D2lgl8EKjndMhfQphSpyT2CmGK9-R4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
